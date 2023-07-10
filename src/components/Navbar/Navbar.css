@@ -1,0 +1,48 @@
+.navbar {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    height: 60px;
+    
+ 
+}
+
+.navbar a {
+    margin-top: 35px;
+    gap: 55px;
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+.navbar img {
+ 
+    margin-right: 660px;
+    
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
