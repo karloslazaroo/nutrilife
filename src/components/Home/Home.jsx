@@ -5,6 +5,7 @@ import homepic from "../../assets/homepic.jpg";
 import Category from "../Category/Category";
 import Footer from "../Footer/Footer";
 import { Fade } from "react-awesome-reveal";
+import Contact from "../Contact/Contact";
 
 function Home() {
 
@@ -26,6 +27,7 @@ function Home() {
         <img src={homepic}></img>
       </div>
       <Category />
+      <Contact/>
       <Footer/>
       </Fade>
     </div>
