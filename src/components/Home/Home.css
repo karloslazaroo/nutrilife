@@ -20,8 +20,8 @@
 }
 
 
-/* CSS */
-.button-27 {
+
+.button-26{
   appearance: none;
   background-color: #000000;
   border: 2px solid #1A1A1A;
@@ -49,16 +49,16 @@
   will-change: transform;
 }
 
-.button-27:disabled {
+.button-26:disabled {
   pointer-events: none;
 }
 
-.button-27:hover {
+.button-26:hover {
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
-.button-27:active {
+.button-26:active {
   box-shadow: none;
   transform: translateY(0);
 }
