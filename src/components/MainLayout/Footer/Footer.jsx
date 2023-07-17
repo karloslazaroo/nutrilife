@@ -1,7 +1,12 @@
 import React from 'react'
 import './Footer.css'
+import { useAuth0 } from '@auth0/auth0-react';
 
-function Footer() {
+const Footer = () => {
+	
+		const { loginWithRedirect } = useAuth0();
+	
+
   return (
     <div>
          <footer class="footer">
@@ -13,7 +18,7 @@ function Footer() {
   	 				<li><a href="#">about us</a></li>
   	 				<li><a href="#">our services</a></li>
   	 				<li><a href="#">privacy policy</a></li>
-  	 				<li><a href="#">affiliate program</a></li>
+  	 				<li><a onClick={() => loginWithRedirect()}>Admin Page</a></li>
   	 			</ul>
   	 		</div>
   	 		<div class="footer-col">
